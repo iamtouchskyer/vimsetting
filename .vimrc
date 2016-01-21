@@ -25,21 +25,15 @@ set termencoding=utf-8
 set fileformats=unix
 set encoding=prc
 set nu
+set ruler
+set showcmd
+set showmode
+set scrolloff=3
+set backspace=indent,eol,start
+
 
 " Emmet-vim
-let g:user_emmet_settings = {
-  \  'php' : {
-  \    'extends' : 'html',
-  \    'filters' : 'c',
-  \  },
-  \  'xml' : {
-  \    'extends' : 'html',
-  \  },
-  \  'haml' : {
-  \    'extends' : 'html',
-  \  },
-  \}
-
+"let g:user_emmet_leader_key='<C-y>'
 
 " For syntastic
 set statusline+=%#warningmsg#
@@ -54,3 +48,4 @@ let g:syntastic_html_checkers = ['']
 
 " Undo history
 nnoremap <F5> :UndotreeToggle<cr>
+
