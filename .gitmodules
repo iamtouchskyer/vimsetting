@@ -34,6 +34,3 @@
 [submodule "bundle/vim-signature"]
 	path = bundle/vim-signature
 	url = https://github.com/kshenoy/vim-signature.git
-[submodule "bundle/color_coded"]
-	path = bundle/color_coded
-	url = https://github.com/jeaye/color_coded.git
