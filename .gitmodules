@@ -34,9 +34,3 @@
 [submodule "bundle/vim-signature"]
 	path = bundle/vim-signature
 	url = https://github.com/kshenoy/vim-signature.git
-[submodule "bundle/emmet-vim"]
-	path = bundle/emmet-vim
-	url = https://github.com/vim-scripts/Emmet.vim.git
-[submodule "bundle/Emmet.vim"]
-	path = bundle/Emmet.vim
-	url = https://github.com/vim-scripts/Emmet.vim.git
